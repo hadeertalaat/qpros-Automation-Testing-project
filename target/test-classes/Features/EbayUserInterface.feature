@@ -34,6 +34,10 @@ Feature: demo blaze application services
     And user select the first item
     And user clicks on add to cart button
     Then The alert message is displayed with Product added.
+    #delete the added item
+    And user accept the successful message alert
+    And user clicks on cart link
+    And user clicks on delete link
 
   Scenario: Remove item from cart
     Given user navigates to demo blaze

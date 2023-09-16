@@ -496,6 +496,36 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.step({
+  "name": "user accept the successful message alert",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "StepDefinitions.DemoBlazeSteps.acceptTheAlert()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks on cart link",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "StepDefinitions.DemoBlazeSteps.clickOnLink(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks on delete link",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "StepDefinitions.DemoBlazeSteps.clickOnLink(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
 formatter.after({
   "status": "passed"
 });
@@ -615,8 +645,7 @@ formatter.match({
   "location": "StepDefinitions.DemoBlazeSteps.hasItemDeleted()"
 });
 formatter.result({
-  "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat StepDefinitions.DemoBlazeSteps.hasItemDeleted(DemoBlazeSteps.java:123)\r\n\tat ✽.the selected item has deleted(file:///D:/testing%20projects/qpros%20project/src/test/resources/Features/EbayUserInterface.feature:49)\r\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.after({
   "status": "passed"
@@ -817,8 +846,7 @@ formatter.match({
   "location": "StepDefinitions.DemoBlazeSteps.isTheAmountOfTheSelectedItemDisplayed(java.lang.String)"
 });
 formatter.result({
-  "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat StepDefinitions.DemoBlazeSteps.isTheAmountOfTheSelectedItemDisplayed(DemoBlazeSteps.java:150)\r\n\tat ✽.user can see the amount of the selected item(file:///D:/testing%20projects/qpros%20project/src/test/resources/Features/EbayUserInterface.feature:70)\r\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.step({
   "name": "user can see the name of the selected item",
@@ -828,7 +856,7 @@ formatter.match({
   "location": "StepDefinitions.DemoBlazeSteps.isTheAmountOfTheSelectedItemDisplayed(java.lang.String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user can see the credit card of the selected item",
@@ -838,7 +866,7 @@ formatter.match({
   "location": "StepDefinitions.DemoBlazeSteps.isTheAmountOfTheSelectedItemDisplayed(java.lang.String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.after({
   "status": "passed"

@@ -14,9 +14,6 @@ public class PageObject {
     public void openWebsite(String url) {
         driver.navigate().to(url);
     }
-    public String getTheHandelOfCurrentPage() {
-        return driver.getWindowHandle();
-    }
     public boolean isElementDisplayed(By element) {
         return driver.findElement(element).isDisplayed();
     }
