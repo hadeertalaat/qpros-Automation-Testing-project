@@ -254,4 +254,5 @@ if (typeof module !== 'undefined') {
   module.exports = CucumberHTML;
 } else if (typeof define !== 'undefined') {
   define([], function() { return CucumberHTML; });
+
 }
