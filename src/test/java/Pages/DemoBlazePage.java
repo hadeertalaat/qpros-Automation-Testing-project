@@ -13,8 +13,6 @@ public class DemoBlazePage extends PageObject {
     By cardCheckOut = By.id("card");
     By monthCheckOut = By.id("month");
     By yearCheckOut = By.id("year");
-    By searchButton = By.id("gh-btn");
-    By searchResultElements = By.xpath("//*[@id='srp-river-results']//*[@class='s-item__link' ]");
     By signUpButton = By.xpath("//*[@id='signin2']");
     By logInButton = By.xpath("//*[@id='login2']");
     By usernameButtonSignUp = By.xpath("//*[@id='sign-username']");
