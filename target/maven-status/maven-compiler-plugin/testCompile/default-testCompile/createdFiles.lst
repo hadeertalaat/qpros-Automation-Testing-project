@@ -1,0 +1,5 @@
+Pages\PageObject.class
+StepDefinitions\BrowserConfig.class
+Pages\DemoBlazePage.class
+StepDefinitions\TestRunner.class
+StepDefinitions\DemoBlazeSteps.class
